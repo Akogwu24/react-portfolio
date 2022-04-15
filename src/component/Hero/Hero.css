@@ -62,8 +62,7 @@
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
   height: 500px;
-  /* width: 500px; */
-  /* margin-top: 10%; */
+  /* width: 80%; */
 }
 .hero .right_img img {
   border-radius: 5%;
@@ -71,7 +70,8 @@
   right: 40px;
   top: 50px;
   margin: auto;
-  height: 500px;
+  /* width: 80%; */
+  height: 450px;
 }
 @media (max-width: 768px) {
   .right {

@@ -69,7 +69,6 @@ const Hero = () => {
         </Flex>
         <Flex
           py="10"
-          bg="green.100"
           gap="3rem"
           justify="space-between"
           direction={['column', '', 'row']}
