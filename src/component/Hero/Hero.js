@@ -111,7 +111,7 @@ const Hero = () => {
               </button>
             </Flex>
           </Stack>
-          <Stack flex={[0.7]} bg="red.100">
+          <Stack flex={[0.7]}>
             <Text fontWeight="600" fontSize="2.5rem !important" py="8">
               Socials
             </Text>
