@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import hero from '../pic/hero.png';
+
 import {
   SiTailwindcss,
   SiRedux,
