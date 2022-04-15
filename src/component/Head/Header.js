@@ -5,6 +5,7 @@ import {
   Avatar,
   Flex,
   HStack,
+  Link,
   Stack,
   Text,
   UnorderedList,
@@ -22,21 +23,23 @@ const Header = () => {
     <>
       <header className="header">
         <div className="container d_flex">
-          <HStack>
-            <Avatar
-              src="https://drive.google.com/file/d/1zVAZnk5gSJY7MXMe8MXu8VN77vsINmge/view?usp=sharing"
-              name="Akogwu Emmanuel"
-              size="lg"
-            />
-            <Stack
-              fontWeight="bold"
-              fontSize="1.2rem"
-              fontFamily="Rubik Moonrocks"
-            >
-              <Text>Akogwu</Text>
-              <Text m="0 !important">Emmanuel</Text>
-            </Stack>
-          </HStack>
+          <Link href="#">
+            <HStack>
+              <Avatar
+                size="lg"
+                name="Prosper Otemuyiwa"
+                src="https://bit.ly/prosper-baba"
+              />
+              <Stack
+                fontWeight="bold"
+                fontSize="1.2rem"
+                fontFamily="Rubik Moonrocks"
+              >
+                <Text>Akogwu</Text>
+                <Text m="0 !important">Emmanuel</Text>
+              </Stack>
+            </HStack>
+          </Link>
 
           <Flex as="nav" className="navlink">
             <UnorderedList
