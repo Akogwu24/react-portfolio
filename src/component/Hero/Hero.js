@@ -23,7 +23,9 @@ const Hero = () => {
           className="container f_flex top"
         >
           <div className="left top">
-            <Text as="h3">WELCOME TO MY WORLD</Text>
+            <Text pt="5" as="h3">
+              WELCOME TO MY WORLD
+            </Text>
             <Text as="h1">
               Hi, <span> Akogwu Emmanuel</span> here.
             </Text>
