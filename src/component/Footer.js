@@ -7,6 +7,7 @@ const Footer = () => {
       my="20"
       py="10"
       bg="#eee"
+      gap="2rem"
       justify="space-evenly"
       align="center"
     >
